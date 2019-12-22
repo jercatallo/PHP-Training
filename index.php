@@ -13,24 +13,37 @@
 
 
 
-<form action="<?php echo $_SERVER["PHP_SELF"] ?>" class="form" method="post">
 
-
-<h1>Login Form</h1>
+<form action="success.php" class="form" method="post">
+<h1>Registration Form</h1>
 <hr>
+<label>Firstname</label>
+<input type="text" name="firstname">
+<label>Lastname</label>
+<input type="text" name="lastname">
 <label>Username</label>
 <input type="text" name="username">
 <label>Password</label>
 <input type="password" name="password">
+<label>Confirm Password</label>
+<input type="password" name="confirmPassword">
 
 <input type="submit" value="Login">
+
+
+
 
 </form>
 
 
-
-
 <?php 
+
+
+
+
+
+
+
 
 
 
